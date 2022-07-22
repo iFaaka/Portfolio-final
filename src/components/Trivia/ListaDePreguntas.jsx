@@ -4,7 +4,6 @@ import { Pregunta } from "./Pregunta";
 export const ListaDePreguntas = ({ nextWindow }) => {
   const [questionNumber, setQuestionNumber] = useState(0);
   const [score, setScore] = useState(0);
-  const [gameStatus, setGameStatus] = useState(0);
   const myQuestions = [
     {
       q: "¿A que rama de la programacion web me dedico?",
