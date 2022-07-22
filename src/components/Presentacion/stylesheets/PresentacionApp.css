@@ -1,0 +1,52 @@
+.presentacion-container h1 {
+    color: white;
+    font-size: 3rem;
+}
+.content-container  img {
+    width: 15vw;
+    height: auto;
+}
+.right-content span{
+    font-size: 1.1rem;
+    margin-left: 8rem;
+    margin-top: 0.4rem;
+}
+
+.right-content button {
+    width: 50%;
+    margin-top: 10vh;
+    margin-left: 9rem;
+    padding: 1.5rem;
+    background-color: #00adb5;
+    border: solid white 1px;
+    color: #f5f6f7;
+    font-size: 1vw;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.presentacion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Constantia;
+    border: 2px solid white;
+    min-width: 40vw;
+    margin-top: 25vh;
+}
+
+
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content-container {
+    color: white;
+    display: flex;
+}
+

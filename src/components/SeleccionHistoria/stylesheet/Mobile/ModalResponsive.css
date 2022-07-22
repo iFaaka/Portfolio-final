@@ -1,0 +1,12 @@
+@media (max-width: 430px){
+    .modal-container{
+        width: 80vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .modal-container div {
+        font-size: 1em;
+        padding: 7px;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.trivia-title{
+    color: white;
+    text-align: center;
+}
+
+.trivia-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    margin-top: 5vh;
+}

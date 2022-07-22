@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { PresentacionApp } from "./components/Presentacion/PresentacionApp";
+import { SeleccionesApp } from "./components/SeleccionHistoria/SeleccionesApp";
+import { Trivia } from "./components/Trivia/Trivia";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [showWindow, setshowWindow] = useState(0);
+
+  let fragment;
+  if (showWindow === 0) {
+    //Deslizables
+    fragment = <SeleccionesApp nextWindow={setshowWindow} />;
+  } else if (showWindow === 1) {
+    //Presentacion
+    fragment = <PresentacionApp nextWindow={setshowWindow} />;
+  } else if (showWindow === 2) {
+    //Trivia
+    fragment = <Trivia nextWindow={setshowWindow} />;
+  }
+
+  return <div className="App">{fragment}</div>;
 }
 
 export default App;

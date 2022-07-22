@@ -1,0 +1,15 @@
+.button-answer {
+    background-color: #00adb5;
+    color: white;
+    padding: 2vh;
+    margin: 4vh;
+}
+
+.question-container{
+    background-color: #272f3b;
+    color: white;
+    padding: 3vh;
+    text-align: center;
+
+}
+

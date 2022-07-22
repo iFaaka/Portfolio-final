@@ -1,0 +1,21 @@
+.option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    filter: blur(10px);
+    transition: filter 0.3s;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.blurer {
+  filter: blur(20px)
+}
+
+.noblurer:hover,.noblurer:active {
+  filter: none !important;
+}

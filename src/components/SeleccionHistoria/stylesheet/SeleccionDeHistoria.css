@@ -1,0 +1,33 @@
+.deslizable-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+
+    
+  }
+  .v-line{
+    border-left: thick solid white;
+    height:100%;
+    left: 50%;
+    position: absolute;
+   }
+  
+  .deslizable-container::first-line {
+    border-right: 15px solid white;
+  }
+  .deslizable-container p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+    word-wrap: wrap;
+  }
+  
+  .deslizable-image {
+    height: 30vh;
+  }
+
+
+

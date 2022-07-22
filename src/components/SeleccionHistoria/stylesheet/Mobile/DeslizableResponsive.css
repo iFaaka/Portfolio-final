@@ -1,0 +1,7 @@
+@media (max-width: 430px) {
+    .deslizable-text {
+        font-size: 3.75vw !important;
+        width: 50vw;
+        height: 4vh;
+    }
+}

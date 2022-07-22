@@ -1,0 +1,43 @@
+.modal-bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
+}
+
+.modal-container {
+    background-color: #222831;
+    border: 2px white solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 35vw;
+    padding-top: 3vh;
+    
+}
+
+.boton-modal-container {
+    display: flex;
+
+}
+
+.boton-modal-container div {
+    border: solid white 1px;
+    background-color: #00adb5;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 2vw;
+    cursor: pointer;
+    user-select: none;
+}
+
+.visible {
+    display: none;
+}

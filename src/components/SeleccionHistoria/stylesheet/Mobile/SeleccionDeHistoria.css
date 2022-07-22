@@ -1,0 +1,14 @@
+@media (max-width: 430px) {
+    .deslizable-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .v-line {
+        transform: rotate(90deg);
+        height: 100vw
+        }
+    .first-Desl {
+        border-bottom: 1px solid white;
+
+    }
+}
