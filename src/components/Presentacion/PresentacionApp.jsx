@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './stylesheets/PresentacionApp.css'
 
 
 export const PresentacionApp = ({ nextWindow }) => {
+
+
   return (
     <div className='presentacion-container'>
         <h1>Mi nombre es Facundo </h1>
