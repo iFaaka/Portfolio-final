@@ -1,0 +1,58 @@
+.mol-game-container {
+    display: flex;
+    background-color: #272f3b;
+    flex-direction: column;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.mol-cards-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 6vw;
+    margin-top: 5vh;
+
+}
+
+.title-mol-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title-card {
+    color: white;
+    font-size: 4vh;
+    padding: 3vw;
+}
+
+.subtitle-card {
+    color: white;
+    font-size: 2vh;
+
+}
+
+.mol-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+}
+
+.mol-button {
+    background-color: #00adb5;
+    color: white;
+    padding: 2vh;
+    margin: 4vh;
+    user-select: none;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}

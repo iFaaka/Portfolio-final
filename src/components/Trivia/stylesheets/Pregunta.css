@@ -1,11 +1,26 @@
-.button-answer {
+.button-answer,
+.button-answer:disabled {
     background-color: #00adb5;
     color: white;
     padding: 2vh;
     margin: 4vh;
+    user-select: none;
 }
 
-.question-container{
+.link-to-proyect,
+.link-to-proyect:visited {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-top: 1vh;
+}
+
+.question {
+    margin-bottom: 2vh;
+}
+
+.question-container,
+.result-container {
     background-color: #272f3b;
     color: white;
     padding: 3vh;
@@ -13,3 +28,29 @@
 
 }
 
+.result-container p {
+    font-size: 4vh;
+}
+
+.result-container p:last-child {
+    font-size: 3vh;
+    margin-top: 4vh;
+}
+
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+
+}
+
+.not-click:hover {
+    display: none;
+}

@@ -1,35 +1,12 @@
 import React, { useState } from "react";
+import { getitems } from "./assets/getitems";
 import { Pregunta } from "./Pregunta";
 
 export const ListaDePreguntas = ({ nextWindow }) => {
   const [questionNumber, setQuestionNumber] = useState(0);
   const [score, setScore] = useState(0);
-  const myQuestions = [
-    {
-      q: "¿A que rama de la programacion web me dedico?",
-      ans1: "Front-End",
-      ans2: "Back-End",
-      correct: "Front-End",
-    },
-    {
-      q: "¿Cual?",
-      ans1: "resp1",
-      ans2: "resp2",
-      correct: "resp2",
-    },
-    {
-      q: "¿Cual2?",
-      ans1: "resp12",
-      ans2: "resp22",
-      correct: "resp12",
-    },
-    {
-      q: "¿Cual3?",
-      ans1: "resp13",
-      ans2: "resp23",
-      correct: "resp23",
-    },
-  ];
+
+  const myQuestions = getitems();
 
   let fragment;
   if (questionNumber < 4) {
@@ -41,18 +18,20 @@ export const ListaDePreguntas = ({ nextWindow }) => {
         correct={myQuestions[questionNumber].correct}
         setScore={setScore}
         changeQuestion={setQuestionNumber}
+        hidden={myQuestions[questionNumber].hidden}
+        id={myQuestions[questionNumber].id}
       />
     );
   } else {
     fragment = (
-      <div>
-        <p>El juego termino! Tu puntuacion fue de {score}/20</p>
+      <div className="result-container">
+        <p>¡El juego termino! Tu puntuacion fue de {score}/20</p>
         <p>Continuemos con el portfolio...</p>
       </div>
     );
 
     setTimeout(() => {
-      nextWindow((prevS) => prevS + 1);
+      nextWindow(4);
     }, 4000);
   }
   return <div>{fragment}</div>;

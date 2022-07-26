@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    background-color: #272f3b;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    padding: 4vh 5vw;
+    margin-top: 4vh;
+
+
+}
+
+.text-container {
+    margin: 0 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    margin-bottom: 5vh;
+}
+
+.module-2-img {
+    height: 25vh;
+    width: 20vw;
+    outline: solid white 3px;
+    border: solid #272f3b 5px;
+    transition: transform .2s
+}
+
+.module-2-img:hover {
+
+    transform: scale(1.2);
+}

@@ -1,0 +1,41 @@
+.modulo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0 4vw;
+
+}
+
+.descripcion-container {
+    margin: 3vh;
+}
+
+.descripcion-container p {
+    font-size: 2.4vh;
+    word-wrap: break-word;
+}
+
+
+.descripcion-container a,
+.descripcion-container a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.descripcion-container img {
+    width: 80%;
+}
+
+.modulo-button {
+    background-color: #00adb5;
+    color: white;
+    padding: 2vh;
+    margin: 4vh;
+    user-select: none;
+}
