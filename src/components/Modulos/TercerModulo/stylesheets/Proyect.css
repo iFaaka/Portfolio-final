@@ -1,0 +1,30 @@
+.proyect-img {
+    height: 20vh;
+    width: 17vw;
+    outline: solid white 3px;
+    border: solid #272f3b 5px;
+    transition: transform .2s;
+    margin: 3vh 0;
+}
+
+.proyect-img:hover {
+
+    transform: scale(1.1);
+}
+
+.proyect-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 1vw;
+    width: 100%;
+}
+
+.proyect-a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.proyect-title {
+    font-size: 3vh;
+}

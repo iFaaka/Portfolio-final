@@ -1,0 +1,10 @@
+.proyects-container {
+    display: flex;
+    color: white;
+    display: flex;
+    background-color: #272f3b;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    margin-top: 4vh;
+}

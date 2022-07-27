@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./App.css";
+import { CuartoModulo } from "./components/Modulos/CuartoModulo/CuartoModulo";
 import { PrimerModulo } from "./components/Modulos/PrimerModulo/PrimerModulo";
 import { SegundoModulo } from "./components/Modulos/SegundoModulo/SegundoModulo";
+import { TercerModulo } from "./components/Modulos/TercerModulo/TercerModulo";
 import { MoreOrLess } from "./components/MoreOrLess/MoreOrLess";
 import { PresentacionApp } from "./components/Presentacion/PresentacionApp";
 import { SeleccionesApp } from "./components/SeleccionHistoria/SeleccionesApp";
@@ -28,8 +30,12 @@ function App() {
     fragment = <SegundoModulo nextWindow={setshowWindow} />;
   } else if (showWindow === 5) {
     fragment = <MoreOrLess nextWindow={setshowWindow} />;
+  } else if (showWindow === 6) {
+    fragment = <TercerModulo nextWindow={setshowWindow} />;
+  } else if (showWindow === 7) {
+    fragment = <CuartoModulo nextWindow={setshowWindow} />;
   }
-  console.log(showWindow);
+
   return <div className="App">{fragment}</div>;
 }
 

@@ -34,9 +34,9 @@ export const items = () => {
       price1: [10, " puntos"],
       price2: [0, " puntos"],
       hidden: "Jaja nos vamos entendiendo",
-      hidden1: "😡",
+      hidden1: "",
       button1: "A ti",
-      button2: "A otro candidato",
+      button2: "Otro candidato",
     },
   ];
 

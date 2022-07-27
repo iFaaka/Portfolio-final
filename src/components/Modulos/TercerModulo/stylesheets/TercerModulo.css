@@ -1,0 +1,12 @@
+.tercer-modulo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title,
+.tercer-description {
+    color: white;
+    margin-top: 2vh;
+}

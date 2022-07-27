@@ -7,6 +7,10 @@
     user-select: none;
 }
 
+.button-answer:disabled {
+    border: solid 2px black;
+}
+
 .link-to-proyect,
 .link-to-proyect:visited {
     color: white;
@@ -49,8 +53,4 @@
 .hidden {
     display: none;
 
-}
-
-.not-click:hover {
-    display: none;
 }
