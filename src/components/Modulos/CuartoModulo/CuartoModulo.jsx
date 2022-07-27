@@ -10,14 +10,18 @@ export const CuartoModulo = ({ nextWindow }) => {
 
   return (
     <div>
-      <nav>
+      <nav className="nav-container">
         <a onClick={() => nextWindow(0)}>Volver al inicio</a>
       </nav>
       <div className="cuarto-modulo-container">
         <HeaderResume />
         <DescriptionResume />
         <CertifList />
-        <ProyectCard />
+        <details className="desplegable">
+          <summary>Proyectos</summary>
+          <ProyectCard /> 
+        </details>
+        
         <Contact />
       </div>
     </div>

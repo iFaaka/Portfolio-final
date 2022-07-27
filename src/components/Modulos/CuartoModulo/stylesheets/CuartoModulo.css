@@ -1,7 +1,14 @@
 .cuarto-modulo-container {
-    background-color: #0a0a23;
-    height: 80vh;
+    background-color: #1b1b32;
     width: 80vw;
-    margin: 5vh;
     color: #f5f6f7;
+}
+.nav-container {
+    background-color: lightblue;
+}
+
+.desplegable {
+    border: solid white 2px;
+    padding: 1vh;
+    font-size: 3vh;
 }

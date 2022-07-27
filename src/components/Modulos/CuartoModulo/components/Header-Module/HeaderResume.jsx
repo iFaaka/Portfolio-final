@@ -15,18 +15,22 @@ export const HeaderResume = () => {
   };
   return (
     <div className="header">
-      <img
-        src={require(`../../../../assets/${image}.png`)}
-        className="profile-ico"
-      />
-      <input
-        type="range"
-        min="0"
-        max="5"
-        value={inputRange}
-        onChange={(e) => handleChange(e)}
-      />
-      <h1>Facundo N. Alvarez</h1>
+      <div className="title-container">
+        <img
+          src={require(`../../../../assets/${image}.png`)}
+          className="profile-img"
+        />
+        <input
+          type="range"
+          min="0"
+          max="5"
+          value={inputRange}
+          onChange={(e) => handleChange(e)}
+          className='header-input'
+        />
+        <h1 className="name-container">Facundo N. Alvarez</h1>
+      </div>
+
     </div>
   );
 };

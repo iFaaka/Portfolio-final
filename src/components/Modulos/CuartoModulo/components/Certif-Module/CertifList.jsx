@@ -5,8 +5,11 @@ import "./stylesheet/CertifList.css";
 export const CertifList = () => {
   const certif = getCertif();
   return (
+
+    <details className="desplegable">
+    <summary>Mis certificaciones</summary>
     <div>
-      <p>Mis certificaciones</p>
+      
       <div className="certif-container">
         <CardCertif
           title={"FreeCodeCamp"}
@@ -30,5 +33,7 @@ export const CertifList = () => {
         />
       </div>
     </div>
+    </details>
+    
   );
 };

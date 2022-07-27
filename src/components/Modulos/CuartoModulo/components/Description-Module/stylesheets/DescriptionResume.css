@@ -1,0 +1,9 @@
+.description-text {
+    padding: 3vh;
+}
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
