@@ -4,7 +4,7 @@ import { CertifList } from "./components/Certif-Module/CertifList";
 import { Contact } from "./components/Contact-Module/Contact";
 import { DescriptionResume } from "./components/Description-Module/DescriptionResume";
 import { HeaderResume } from "./components/Header-Module/HeaderResume";
-
+import "./stylesheets/CuartoModulo.css";
 export const CuartoModulo = ({ nextWindow }) => {
   const [usageImage, setUsageImage] = useState(0);
 
@@ -13,11 +13,13 @@ export const CuartoModulo = ({ nextWindow }) => {
       <nav>
         <a onClick={() => nextWindow(0)}>Volver al inicio</a>
       </nav>
-      <HeaderResume />
-      <DescriptionResume />
-      <CertifList />
-      <ProyectCard />
-      <Contact />
+      <div className="cuarto-modulo-container">
+        <HeaderResume />
+        <DescriptionResume />
+        <CertifList />
+        <ProyectCard />
+        <Contact />
+      </div>
     </div>
   );
 };
