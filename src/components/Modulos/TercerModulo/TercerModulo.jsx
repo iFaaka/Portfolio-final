@@ -36,7 +36,7 @@ export const TercerModulo = ({ nextWindow }) => {
       <div>
         <ProyectCard />
       </div>
-      <button onClick={() => nextWindow(7)} className="modulo-button">
+      <button onClick={() => nextWindow(99)} className="modulo-button">
         Continuemos...
       </button>
     </div>

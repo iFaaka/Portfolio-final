@@ -14,7 +14,7 @@ export const HeaderResume = () => {
     }
   };
   return (
-    <div className="header">
+    <div className="header-final">
       <div className="title-container">
         <img
           src={require(`../../../../assets/${image}.png`)}

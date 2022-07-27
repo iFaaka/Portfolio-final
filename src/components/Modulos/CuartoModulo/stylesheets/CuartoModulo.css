@@ -4,11 +4,19 @@
     color: #f5f6f7;
 }
 .nav-container {
-    background-color: lightblue;
+    background-color: #1b1b32;
+    color:white;
+    display: flex;
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
 }
 
 .desplegable {
     border: solid white 2px;
     padding: 1vh;
-    font-size: 3vh;
+    font-size: 4vh;
+
 }

@@ -32,7 +32,7 @@ function App() {
     fragment = <MoreOrLess nextWindow={setshowWindow} />;
   } else if (showWindow === 6) {
     fragment = <TercerModulo nextWindow={setshowWindow} />;
-  } else if (showWindow === 7) {
+  } else if (showWindow === 99) {
     fragment = <CuartoModulo nextWindow={setshowWindow} />;
   }
 

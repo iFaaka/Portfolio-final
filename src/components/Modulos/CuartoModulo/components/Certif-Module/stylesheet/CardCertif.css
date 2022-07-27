@@ -1,3 +1,26 @@
 .card-certif-img {
-    width: 20vw;
+    width: 15vw;
+    height: 30vh;
+    outline: solid white 3px;
+    border: solid #272f3b 5px;
+    margin-top: 3vh;
+    transition: scale 3s;
+
+}
+
+.card-certif-img:hover {
+    transform: scale(1.1);
+}
+
+.contact-link-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    gap: 2vw;
+}
+
+.contact-a {
+    text-decoration: none;
+    color:white;
+    
 }

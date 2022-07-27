@@ -3,8 +3,8 @@ import "./stylesheets/PrimerModulo.css";
 export const PrimerModulo = ({ nextWindow }) => {
   return (
     <div className="modulo-container">
-      <div className="title-container">
-        <h1>Mi primer vistazo a la programacion lo tuve en Python</h1>
+      <div >
+        <h1 className="section-title">Mi primer vistazo a la programacion lo tuve en Python</h1>
       </div>
       <div className="descripcion-container">
         <img
@@ -27,16 +27,18 @@ export const PrimerModulo = ({ nextWindow }) => {
           estilo original
         </p>
       </div>
+
+      <footer>
+        Luego de investigar mas las ramas de la programacion, decidi virar a la
+        programacion web.
+      </footer>
+
       <button
         className="modulo-button"
         onClick={() => nextWindow((prevS) => prevS + 1)}
       >
         Continuemos...
       </button>
-      <footer>
-        Luego de investigar mas las ramas de la programacion, decidi virar a la
-        programacion web.
-      </footer>
     </div>
   );
 };

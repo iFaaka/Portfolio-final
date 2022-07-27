@@ -6,7 +6,6 @@ import { DescriptionResume } from "./components/Description-Module/DescriptionRe
 import { HeaderResume } from "./components/Header-Module/HeaderResume";
 import "./stylesheets/CuartoModulo.css";
 export const CuartoModulo = ({ nextWindow }) => {
-  const [usageImage, setUsageImage] = useState(0);
 
   return (
     <div>

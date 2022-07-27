@@ -24,7 +24,7 @@ export const Deslizable = ({
   return (
     <div
       className={`${showModal == "" ? "blurer" : ""} noblurer option-container`}
-      onClick={() => /*  handleClick(id) */ nextWindow(7)}
+      onClick={() =>   handleClick(id)  /* nextWindow(7) */}
     >
       <img
         className="deslizable-image"

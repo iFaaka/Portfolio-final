@@ -10,8 +10,9 @@
 
 .mol-cards-container {
     display: flex;
-    width: 60%;
+    width: 100%;
     justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -37,21 +38,21 @@
 
 .mol-button-container {
     display: flex;
-    width: 60%;
-    justify-content: space-around;
+    width: 100%;
     align-items: center;
+    justify-content: space-around;
+    margin: 4vh;
 
 }
 
 .mol-button {
     background-color: #00adb5;
     color: white;
-    padding: 1vh;
-    margin: 4vh;
     width: 12vw;
     height: 6vh;
     user-select: none;
     cursor: pointer;
+    text-align: center;
 }
 
 .mol-button:disabled {
