@@ -7,7 +7,6 @@ export const Trivia = ({ nextWindow }) => {
     <div className="trivia-app">
       <h2 className="trivia-title">¡Trivia!</h2>
       <ListaDePreguntas nextWindow={nextWindow} />
-      {/* <button className='' onClick={() => nextWindow(prevS => prevS + 1)}></button> */}
     </div>
   );
 };
