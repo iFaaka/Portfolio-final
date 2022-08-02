@@ -1,13 +1,13 @@
-@media (max-width: 725px {
-        .modal-container {
-            width: 80vw;
-            padding-left: 5vw;
-            padding-right: 5vw;
-        }
-
-        .modal-container div {
-            font-size: 1em;
-            padding: 7px;
-        }
-
+@media (max-width: 725px) {
+    .modal-container {
+        width: 80vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
+
+    .modal-container div {
+        font-size: 1em;
+        padding: 7px;
+    }
+
+}
