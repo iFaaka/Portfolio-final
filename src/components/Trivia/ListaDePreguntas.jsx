@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { getitems } from "./assets/getitems";
 import { Pregunta } from "./Pregunta";
-
 export const ListaDePreguntas = ({ nextWindow }) => {
   const [questionNumber, setQuestionNumber] = useState(0);
   const [score, setScore] = useState(0);

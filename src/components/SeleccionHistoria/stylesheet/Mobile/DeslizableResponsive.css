@@ -4,4 +4,8 @@
         width: 50vw;
         height: 4vh;
     }
+
+    .option-container {
+        filter: blur(0);
+    }
 }

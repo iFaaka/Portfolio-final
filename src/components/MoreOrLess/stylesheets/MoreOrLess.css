@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     user-select: none;
+    text-align: center;
 }
 
 .mol-cards-container {
@@ -81,4 +82,12 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.final-card-link {
+    margin-top: 4vh;
+}
+
+.final-container {
+    padding-bottom: 5vh;
 }

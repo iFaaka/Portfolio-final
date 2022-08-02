@@ -1,12 +1,18 @@
 import React from "react";
 import "./stylesheets/Proyect.css";
-export const Proyect = ({ title, img, url }) => {
+export const Proyect = ({ title, img, url, urlGit }) => {
   return (
     <div className="proyect-card-container">
       <p className="proyect-title">{title}</p>
-      <img className="proyect-img" src={require(`./assets/image/${img}.png`)} />
-      <span>
-        <a className="proyect-a" target="_blank" href={url}>
+      <a href={url} target="_blank">
+        <img
+          className="proyect-img"
+          src={require(`./assets/image/${img}.png`)}
+        />
+      </a>
+
+      <span className="link-to-git">
+        <a className="proyect-a" target="_blank" href={urlGit}>
           Aqui esta su Github
         </a>
       </span>

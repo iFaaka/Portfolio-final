@@ -1,12 +1,21 @@
+.presentasion-module {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .presentacion-container h1 {
     color: white;
     font-size: 3rem;
 }
-.content-container  img {
+
+.content-container img {
     width: 15vw;
     height: auto;
 }
-.right-content span{
+
+.right-content span {
     font-size: 1.1rem;
     margin-left: 8rem;
     margin-top: 0.4rem;
@@ -34,7 +43,6 @@
     font-family: Constantia;
     border: 2px solid white;
     min-width: 40vw;
-    margin-top: 25vh;
 }
 
 
@@ -50,3 +58,52 @@
     display: flex;
 }
 
+@media (max-width: 768px) {
+    .presentacion-container {
+        margin: 0;
+
+    }
+
+    .presentacion-container h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin: 1vh 3vw;
+    }
+
+    .presentacion-container img {
+        align-self: center;
+        width: 40vw;
+    }
+
+    .content-container {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .right-content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-content span,
+    .right-content button {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .right-content button {
+        font-size: 4vw;
+        padding: 3vw;
+        margin: 3vh 0;
+
+
+        width: min-content;
+
+    }
+
+
+}

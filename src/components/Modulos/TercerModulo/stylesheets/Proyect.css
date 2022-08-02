@@ -17,6 +17,7 @@
     flex-direction: column;
     padding: 2vh 1vw;
     width: 100%;
+
 }
 
 .proyect-a {
@@ -29,4 +30,9 @@
 .proyect-title {
     font-size: 3vh;
     text-align: center;
+}
+
+.link-to-git {
+    cursor: pointer;
+    user-select: none;
 }

@@ -91,21 +91,24 @@ export const MoreOrLess = ({ nextWindow }) => {
     );
   } else {
     fragment = (
-      <div className="mol-game-container">
+      <div className="mol-game-container final-container">
         <h1 className="title-card">
           Terminaste el ultimo mini-juego de este portfolio
         </h1>
         <span className="subtitle-card final-card">
           Estaba hecho con un objeto codeado a mano, pero realice este mismo
           juego con la API de Mercadolibre. ¡Animate a probarlo!
-          <a
-            className="final-card-a"
-            target="_blank"
-            href="https://moreorlessmeli.netlify.app/"
-          >
+          <p className="final-card-link">
             {" "}
-            Clickeame para jugar
-          </a>
+            <a
+              className="final-card-a"
+              target="_blank"
+              href="https://moreorlessmeli.netlify.app/"
+            >
+              {" "}
+              Clickeame para jugar
+            </a>
+          </p>
         </span>
         <button className="mol-button" onClick={() => nextWindow(6)}>
           Continuemos...
