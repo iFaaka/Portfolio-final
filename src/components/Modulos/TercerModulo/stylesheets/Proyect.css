@@ -17,6 +17,8 @@
     flex-direction: column;
     padding: 2vh 1vw;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -35,4 +37,27 @@
 .link-to-git {
     cursor: pointer;
     user-select: none;
+}
+
+.react-ico {
+
+    height: 7vh;
+    width: 4vw;
+    margin-bottom: 3vh;
+
+
+}
+
+@media (max-width: 770px) {
+    .proyect-img {
+        width: 70vw;
+    }
+
+    .react-ico {
+        width: 20vw;
+    }
+
+    .proyect-card-container {
+        width: 100vw;
+    }
 }

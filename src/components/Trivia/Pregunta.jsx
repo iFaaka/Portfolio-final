@@ -34,7 +34,7 @@ export const Pregunta = ({
   return (
     <div className="question-container">
       <p className="question">{question}</p>
-      <p className={`${isHidden && "hidden"}`}>{hidden}</p>
+
       <button
         className={`button-answer ${
           isCorrect && ans1 === correct ? "correct" : ""
@@ -52,7 +52,7 @@ export const Pregunta = ({
       >
         {ans2}
       </button>
-
+      <p className={`${isHidden && "hidden"}`}>{hidden}</p>
       {id === "2" ? (
         <>
           <p>Aqui puedes verla:</p>{" "}

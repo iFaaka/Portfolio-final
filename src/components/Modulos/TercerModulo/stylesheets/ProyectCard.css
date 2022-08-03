@@ -4,8 +4,16 @@
     display: flex;
     background-color: white;
     color: white;
-    text-align: center;
     width: 80vw;
     margin-top: 4vh;
 
-} 
+}
+
+
+@media (max-width: 725px) {
+    .proyects-container {
+        flex-direction: column;
+        width: 100vw;
+
+    }
+}

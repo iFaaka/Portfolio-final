@@ -10,3 +10,10 @@
     width: 10vw;
     margin-bottom: 3vh;
 }
+
+@media (max-width: 725px) {
+    .card-image {
+        width: 30vw;
+        margin-top: 5vh;
+    }
+}

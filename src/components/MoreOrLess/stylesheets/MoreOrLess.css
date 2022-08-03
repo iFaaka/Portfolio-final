@@ -91,3 +91,17 @@
 .final-container {
     padding-bottom: 5vh;
 }
+
+@media (max-width: 725px) {
+    .mol-button {
+        height: max-content;
+        width: max-content;
+        padding: 5vw;
+    }
+
+    .mol-button:disabled {
+        height: max-content;
+        width: max-content;
+        padding: 5vw;
+    }
+}

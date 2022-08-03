@@ -10,7 +10,7 @@ export const Proyect = ({ title, img, url, urlGit }) => {
           src={require(`./assets/image/${img}.png`)}
         />
       </a>
-
+      <img className="react-ico" src={require(`./assets/image/React.png`)} />
       <span className="link-to-git">
         <a className="proyect-a" target="_blank" href={urlGit}>
           Aqui esta su Github
