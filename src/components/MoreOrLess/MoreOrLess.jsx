@@ -109,6 +109,10 @@ export const MoreOrLess = ({ nextWindow }) => {
               Clickeame para jugar
             </a>
           </p>
+          <img
+            className="meli-img"
+            src={require(`../Modulos/TercerModulo/assets/image/mol-meli.png`)}
+          />
         </span>
         <button className="mol-button" onClick={() => nextWindow(6)}>
           Continuemos...

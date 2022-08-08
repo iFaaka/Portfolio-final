@@ -12,15 +12,28 @@
     transform: scale(1.1);
 }
 
-.contact-link-container {
-    display: flex;
-    align-items: center;
-    margin-top: 2vh;
-    gap: 2vw;
-}
 
-.contact-a {
-    text-decoration: none;
-    color:white;
-    
+
+@media (max-width: 770px) {
+    .card-certif-img {
+        width: 80%;
+        height: 70%;
+    }
+
+    .certification-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .certif-a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4vh;
+    }
+
+
 }

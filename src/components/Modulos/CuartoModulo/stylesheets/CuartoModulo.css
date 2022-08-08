@@ -3,9 +3,10 @@
     width: 80vw;
     color: #f5f6f7;
 }
+
 .nav-container {
     background-color: #1b1b32;
-    color:white;
+    color: white;
     display: flex;
     padding: 2vh;
     justify-content: center;
@@ -17,6 +18,20 @@
 .desplegable {
     border: solid white 2px;
     padding: 1vh;
-    font-size: 4vh;
+    font-size: 3vh;
 
+}
+
+@media (max-width: 770px) {
+    .cuarto-modulo-container {
+        width: 95vw;
+    }
+
+
+
+    .proyect-card-container {
+        margin: 0;
+        padding: 0;
+        width: 90vw
+    }
 }

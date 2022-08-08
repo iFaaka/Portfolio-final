@@ -1,9 +1,28 @@
 .description-text {
     padding: 3vh;
+    text-align: center;
 }
+
 .description-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.first-parah {
+    font-size: 3vh;
+}
+
+.second-parah {
+    font-size: 2.5vh;
+
+}
+
+.third-parah {
+    font-size: 2vh;
+}
+
+.kyu-img {
+    width: 100%;
 }

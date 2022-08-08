@@ -3,11 +3,20 @@
     padding-left: 3vw;
     padding-bottom: 3vh;
     margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.proyects-container{
-    margin: 0;
-    padding: 0;
-    background-color: #1b1b32;
-    width: 100%;
+
+
+@media (max-width: 770px) {
+    .certif-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }

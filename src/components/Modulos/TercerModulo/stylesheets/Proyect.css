@@ -50,14 +50,29 @@
 
 @media (max-width: 770px) {
     .proyect-img {
-        width: 70vw;
+        width: 50vw;
+        height: 34vh;
     }
 
     .react-ico {
-        width: 20vw;
+        width: 9vw;
+        height: 7vh;
     }
 
-    .proyect-card-container {
-        width: 100vw;
+    .link-to-git {
+        margin-bottom: 3vh;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .proyect-img {
+        width: 80vw;
+        height: 70%;
+    }
+
+    .react-ico {
+        width: 13vw;
+        height: 7vh;
     }
 }

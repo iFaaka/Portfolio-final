@@ -1,3 +1,24 @@
 .contact-container {
     padding: 3vh;
+    width: 5vw;
 }
+
+.contact-a {
+    width: 5vw;
+
+}
+
+/* 
+.contact-link-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    gap: 2vw;
+}
+
+.contact-a {
+    text-decoration: none;
+    color: white;
+
+
+} */
