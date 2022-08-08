@@ -1,3 +1,19 @@
+.proyect-card-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 1vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.proyect-title {
+    font-size: 3vh;
+    text-align: center;
+}
+
+
 .proyect-img {
     height: 20vh;
     width: 17vw;
@@ -12,52 +28,25 @@
     transform: scale(1.1);
 }
 
-.proyect-card-container {
-    display: flex;
-    flex-direction: column;
-    padding: 2vh 1vw;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .proyect-a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-
-}
-
-.proyect-title {
-    font-size: 3vh;
-    text-align: center;
-}
-
-.link-to-git {
     cursor: pointer;
     user-select: none;
+    font-size: 2vh;
+    font-weight: bold;
 }
 
-.react-ico {
 
-    height: 7vh;
-    width: 4vw;
-    margin-bottom: 3vh;
-
-
-}
 
 @media (max-width: 770px) {
     .proyect-img {
-        width: 50vw;
+        width: 60vw;
         height: 34vh;
     }
 
-    .react-ico {
-        width: 9vw;
-        height: 7vh;
-    }
 
     .link-to-git {
         margin-bottom: 3vh;
@@ -67,12 +56,9 @@
 
 @media (max-width: 426px) {
     .proyect-img {
-        width: 80vw;
+        width: 85vw;
         height: 70%;
     }
 
-    .react-ico {
-        width: 13vw;
-        height: 7vh;
-    }
+
 }

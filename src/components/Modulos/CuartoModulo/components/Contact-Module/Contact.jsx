@@ -3,6 +3,8 @@ import "./stylesheets/Contact.css";
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub, BsTelegram } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { FaTwitterSquare } from "react-icons/fa";
 
 export const Contact = () => {
   return (
@@ -10,10 +12,23 @@ export const Contact = () => {
       <h1 className="contact-title">Contacto</h1>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
-        nostrum eius maiores minus sunt aspernatur, consequatur ab impedit magni
-        corrupti reprehenderit id doloremque dolorem accusamus facilis? Esse
-        quod neque perspiciatis.
+        Espero que mis proyectos te hayan gustado, si queres saber en que estoy
+        trabajando podes buscarme en{" "}
+        <a
+          target="_blank"
+          className="contact-a"
+          href="https://www.linkedin.com/in/facundon-alvarez/"
+        >
+          <AiFillLinkedin className="logo" /> LinkedIn
+        </a>{" "}
+        o{" "}
+        <a
+          target="_blank"
+          className="contact-a"
+          href="https://twitter.com/iFaakaDev"
+        >
+          <FaTwitterSquare className="logo" /> Twitter
+        </a>
       </p>
 
       <div className="contact-link-container">
@@ -28,6 +43,12 @@ export const Contact = () => {
           </a>
         </span>
         <span>
+          <a className="contact-a" target="_blank" href="#">
+            <AiOutlineMail />
+            {"  "}Alvarezfacundo321@gmail.com
+          </a>
+        </span>
+        <span>
           <a
             className="contact-a"
             target="_blank"
@@ -35,22 +56,6 @@ export const Contact = () => {
           >
             <FcGoogle />
             {"  "}FeedBack sobre este portfolio
-          </a>
-        </span>
-        <span>
-          <a
-            className="contact-a"
-            target="_blank"
-            href="https://t.me/AlvarezFac"
-          >
-            <BsTelegram />
-            {"  "}Mi telegram
-          </a>
-        </span>
-        <span>
-          <a className="contact-a" target="_blank" href="#">
-            <AiOutlineMail />
-            {"  "}
           </a>
         </span>
       </div>

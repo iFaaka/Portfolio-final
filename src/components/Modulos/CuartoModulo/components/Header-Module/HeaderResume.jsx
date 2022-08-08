@@ -26,11 +26,10 @@ export const HeaderResume = () => {
           max="5"
           value={inputRange}
           onChange={(e) => handleChange(e)}
-          className='header-input'
+          className="header-input"
         />
-        <h1 className="name-container">Facundo N. Alvarez</h1>
+        <h1 className="name-container">Facundo Alvarez</h1>
       </div>
-
     </div>
   );
 };

@@ -2,6 +2,8 @@
     background-color: #1b1b32;
     width: 80vw;
     color: #f5f6f7;
+    border: solid white 2px;
+    border-top: none;
 }
 
 .nav-container {
@@ -13,10 +15,14 @@
     align-items: center;
     cursor: pointer;
     user-select: none;
+    border: solid white 2px;
+    border-bottom: none;
 }
 
 .desplegable {
     border: solid white 2px;
+    border-left: none;
+    border-right: none;
     padding: 1vh;
     font-size: 3vh;
 
