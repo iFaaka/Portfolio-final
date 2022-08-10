@@ -27,7 +27,8 @@ export const items = () => {
       button2: "Contador Publico",
       button1: "Est. de programacion",
     },
-    {
+    //Esto esta anulado porque me revento el cringeometro despues de tanto verlo
+    /*     {
       img1: "heroe",
       img2: "dark",
       title: ["¿Crees que sera mejor elegirme a mi o a otro candidato?"],
@@ -37,7 +38,7 @@ export const items = () => {
       hidden1: "",
       button1: "A ti",
       button2: "Otro candidato",
-    },
+    }, */
   ];
 
   return question;

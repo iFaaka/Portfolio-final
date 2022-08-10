@@ -33,7 +33,7 @@ export const MoreOrLess = ({ nextWindow }) => {
 
   let fragment;
 
-  if (questionNumber < 3) {
+  if (questionNumber < 2) {
     fragment = (
       <div className="more-or-less">
         <h1 className="mol-title">¿Otro juego? ¡Otro juego!</h1>

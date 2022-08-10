@@ -1,6 +1,6 @@
 .profile-img {
-    height: 30vh;
-    width: 22vw;
+    height: auto;
+    width: 19vw;
 }
 
 .header-final {
@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: #1b1b32;
-    width: 25vw;
+    width: 21vw;
     margin-top: 20vh;
     border-start-start-radius: 230px;
     border-start-end-radius: 320px;

@@ -4,6 +4,7 @@
     color: #f5f6f7;
     border: solid white 2px;
     border-top: none;
+    min-width: 80vw;
 }
 
 .nav-container {
