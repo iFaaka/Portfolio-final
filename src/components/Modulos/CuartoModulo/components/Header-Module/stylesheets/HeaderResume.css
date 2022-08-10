@@ -1,6 +1,7 @@
 .profile-img {
     height: auto;
     width: 19vw;
+
 }
 
 .header-final {
@@ -12,10 +13,52 @@
 
 .header-input {
     margin-top: 1vh;
-    width: 10vw;
+    width: 19vw;
+    margin-top: 3vh;
     margin-bottom: 3vh;
     align-self: center;
+    -webkit-appearance: none;
+    background-color: #1b1b32;
 }
+
+
+
+.header-input::-webkit-slider-runnable-track {
+
+    border: solid black 2px;
+    border-radius: 60px;
+    background-color: white;
+    padding: 0.5vh 0.3vw;
+
+}
+
+
+.header-input::-webkit-slider-thumb {
+    /* Punto */
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.7vw;
+    height: 1.5vw;
+    background-color: #1b1b32;
+    cursor: pointer;
+    border-radius: 50px;
+
+
+}
+
+.header-input::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.7vw;
+    height: 1.5vw;
+    cursor: pointer;
+    border-radius: 50px;
+
+
+}
+
+
+
 
 .title-container {
     display: flex;

@@ -8,7 +8,7 @@ export const HeaderResume = () => {
     setInputRange(e.target.value);
     console.log(inputRange);
     if (inputRange >= 3) {
-      setImage("camara-falsa");
+      setImage("camara");
     } else {
       setImage("program");
     }

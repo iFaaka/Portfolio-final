@@ -26,3 +26,15 @@
 .kyu-img {
     width: 100%;
 }
+
+.kyu-a {
+    font-weight: bold;
+}
+
+.kyu-a:visited {
+    color: white;
+}
+
+.separator {
+    width: 70vw;
+}

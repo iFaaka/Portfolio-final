@@ -11,6 +11,8 @@ export const DescriptionResume = () => {
           JavaScript y React, mi formación en estas áreas fue en parte
           Autodidacta y en parte a través de cursos guiados y freeCodeCamp.{" "}
         </p>
+
+        <hr className="separator" />
         <p className="description-text second-parah">
           Contantemente estoy desarrollando mis habilidades en estas áreas, por
           lo que te invito a pasar por mi GitHub para ver que estuve trabajando.
@@ -19,6 +21,7 @@ export const DescriptionResume = () => {
           <a
             target="_blank"
             href="https://docs.codewars.com/gamification/ranks/"
+            className="kyu-a"
           >
             Kyu
           </a>{" "}

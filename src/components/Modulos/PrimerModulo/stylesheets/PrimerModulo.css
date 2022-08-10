@@ -6,12 +6,14 @@
     color: white;
     text-align: center;
     overflow: hidden;
-    margin: 0 4vw;
+    height: 100vh;
 
 }
 
 .descripcion-container {
     margin: 3vh;
+
+
 }
 
 .descripcion-container p {
@@ -28,7 +30,9 @@
 }
 
 .descripcion-container img {
-    width: 80%;
+    width: 60vw;
+    height: auto;
+    margin-bottom: 4vh;
 }
 
 .modulo-button {
@@ -37,4 +41,10 @@
     padding: 2vh;
     margin: 4vh;
     user-select: none;
+}
+
+@media (max-width: 425px) {
+    .descripcion-container img {
+        width: 85vw;
+    }
 }

@@ -36,6 +36,11 @@ export const getCertif = () => {
       certification: "https://i.ibb.co/txnM1xk/image.png",
       urlcert: "https://i.ibb.co/txnM1xk/image.png",
     },
+    {
+      title: "Udemy - React (en proceso) ",
+      certification: "https://s.udemycdn.com/meta/default-meta-image-v2.png",
+      urlcert: " ",
+    },
   ];
 
   return data;
