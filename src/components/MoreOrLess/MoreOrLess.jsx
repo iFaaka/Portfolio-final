@@ -111,7 +111,7 @@ export const MoreOrLess = ({ nextWindow }) => {
           </p>
           <img
             className="meli-img"
-            src={require(`../Modulos/TercerModulo/assets/image/mol-meli.png`)}
+            src="https://i.ibb.co/thXbD77/image.png" /* src="https://i.ibb.co/5Bdtx5Q/image.png" */
           />
         </span>
         <button className="mol-button" onClick={() => nextWindow(6)}>

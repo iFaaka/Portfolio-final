@@ -10,7 +10,9 @@ export const SegundoModulo = ({ nextWindow }) => {
       <h1 className="module-title">
         Para adquirir las habilidades necesarias pase por varios cursos
       </h1>
-      <span>Los mas destables o que mayor cariño les guardo son:</span>
+      <span className="second-module-span">
+        Los mas destables o que mayor cariño les guardo son:
+      </span>
 
       <Card
         title={moduleInfo[0].title}

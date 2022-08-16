@@ -17,7 +17,7 @@ export const getitems = () => {
       id: "1",
     },
     {
-      q: "Uno de mis proyectos es una trivia interactiva que consumo una API para obtener preguntas y respuestas, te animas a probarlas?",
+      q: "Uno de mis proyectos es una trivia interactiva que consume una API para obtener preguntas y respuestas, te animas a probarla?",
       ans1: "Listo, ya la probe!",
       ans2: "Prefiero verla despues",
       correct: "Listo, ya la probe!",
