@@ -29,10 +29,11 @@
 
 .kyu-a {
     font-weight: bold;
+    color: white;
 }
 
 .kyu-a:visited {
-    color: white;
+    color: white !important;
 }
 
 .separator {
