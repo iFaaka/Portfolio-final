@@ -20,9 +20,9 @@ export const getProyects = () => {
     },
     {
       title: "Multiples To-Do",
-      url: "https://todo.com",
+      url: "https://multi-todo-react.netlify.app/",
       img: "multi-to-do",
-      urlGit: "https://github.com/iFaaka/Turnera-React",
+      urlGit: "https://github.com/iFaaka/Multi-ToDo",
     },
     {
       title: "Este portfolio",
