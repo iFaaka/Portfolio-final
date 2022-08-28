@@ -12,6 +12,10 @@
 }
 
 
+.contact-title {
+    margin-bottom: 1vh;
+}
+
 
 .contact-link-container {
     display: flex;
